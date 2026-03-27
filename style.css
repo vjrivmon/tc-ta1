@@ -126,7 +126,12 @@ body {
   font-size: 0.8rem;
   color: #e63946;
   font-weight: 600;
+  white-space: nowrap;
 }
+
+.badge-prod { color: #4ade80; }
+.badge-dev  { color: #60a5fa; }
+.badge-done { color: #a7a9be; }
 
 .company {
   font-size: 0.83rem;

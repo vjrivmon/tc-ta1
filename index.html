@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CV — Javier Ribal del Río</title>
+  <title>CV — Vicente Rivas Monferrer</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -11,27 +11,30 @@
 <div class="cv-wrapper">
 
   <aside class="sidebar">
-    <div class="avatar">JR</div>
-    <h1>Javier Ribal<br/><span>del Río</span></h1>
-    <p class="tagline">Software Engineer · Hyperloop UPV</p>
+    <div class="avatar">VR</div>
+    <h1>Vicente Rivas<br/><span>Monferrer</span></h1>
+    <p class="tagline">AI Engineer · UPV Gandía</p>
 
     <section>
       <h3>Contacto</h3>
       <ul>
-        <li>📧 jribal@upv.es</li>
-        <li>🔗 github.com/jribal</li>
+        <li>📧 vicenterivas773@gmail.com</li>
+        <li>🔗 github.com/vjrivmon</li>
+        <li>🌐 vicenterivasmonferrer.dev</li>
         <li>📍 Valencia, España</li>
       </ul>
     </section>
 
     <section>
-      <h3>Habilidades</h3>
+      <h3>Stack técnico</h3>
       <ul>
-        <li>JavaScript / TypeScript</li>
-        <li>React · HTML · CSS</li>
-        <li>Node.js · Go</li>
-        <li>Git · Docker</li>
-        <li>WebSockets · REST APIs</li>
+        <li>Python · TypeScript · Node.js</li>
+        <li>React · Next.js · Angular</li>
+        <li>FastAPI · Express.js</li>
+        <li>Docker · AWS · CI/CD</li>
+        <li>RAG · LLMs · LangChain</li>
+        <li>ROS2 · ChromaDB · Redis</li>
+        <li>MongoDB · WebSockets</li>
       </ul>
     </section>
 
@@ -39,8 +42,17 @@
       <h3>Idiomas</h3>
       <ul>
         <li>Español — Nativo</li>
-        <li>Inglés — C1</li>
-        <li>Valenciano — B2</li>
+        <li>Valenciano — Nativo</li>
+        <li>Inglés — B2</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Logros</h3>
+      <ul>
+        <li>🥇 1er Puesto Nacional Telefónica Líderes Digitales 2025</li>
+        <li>Monitor Scout Osyris (2020–hoy)</li>
+        <li>Colaborador ONG DNI Valencia</li>
       </ul>
     </section>
   </aside>
@@ -50,37 +62,76 @@
     <section>
       <h2>Sobre mí</h2>
       <p>
-        Estudiante de Ingeniería Informática en la UPV y miembro del subsistema de Software de Hyperloop UPV.
-        Apasionado por el desarrollo web, los sistemas en tiempo real y la tecnología con impacto real.
-        Combino rigor técnico con visión de producto.
+        AI Engineer y estudiante de último año de Tecnologías Interactivas en la UPV Gandía,
+        con especialización en IA (Cátedra ENIA + Instituto VRAIN). Desarrollo soluciones reales
+        con impacto medible: desde chatbots RAG para ONGs hasta robots guía con 99.6% de precisión.
+        Combino rigor técnico con visión de impacto social.
       </p>
     </section>
 
     <section>
-      <h2>Experiencia</h2>
+      <h2>Proyectos destacados</h2>
 
       <div class="entry">
         <div class="entry-header">
-          <strong>Team Lead — Software</strong>
-          <span class="date">2024 – actualidad</span>
+          <strong>Osyris-Web</strong>
+          <span class="date badge-prod">PRODUCTION</span>
         </div>
-        <div class="company">Hyperloop UPV · Valencia</div>
+        <div class="company">Plataforma de gestión scout · Next.js 15 + React 19 + Express.js</div>
         <ul>
-          <li>Diseño e implementación del panel de control de telemetría en tiempo real (React + WebSockets)</li>
-          <li>Coordinación del subsistema de software (6 personas)</li>
-          <li>Integración con subsistemas de Avionics y Electromagnetics</li>
+          <li>Sistema en producción real que gestiona 100+ familias activas diariamente</li>
+          <li>80% de reducción en trabajo administrativo del grupo scout</li>
+          <li>Portal Familias, Dashboard Kraal y pipeline CI/CD con staging y rollback automático</li>
         </ul>
       </div>
 
       <div class="entry">
         <div class="entry-header">
-          <strong>Desarrollador Frontend — Prácticas</strong>
-          <span class="date">Verano 2023</span>
+          <strong>Chatbot RAG DNI — TFG</strong>
+          <span class="date badge-prod">PRODUCTION</span>
         </div>
-        <div class="company">Startup Tech Valencia</div>
+        <div class="company">ONG "Damos Nuestra Ilusión" · Python + FastAPI + ChromaDB + LangChain</div>
         <ul>
-          <li>Desarrollo de dashboard con React y Tailwind CSS</li>
-          <li>Consumo de APIs REST y manejo de estado con hooks</li>
+          <li>Chatbot para ONG con 94% de precisión y 0€ de coste en APIs</li>
+          <li>Ensemble de 4 modelos LLM (GPT-4, Claude, Llama, Mistral) + evaluación RAGAS</li>
+          <li>Context Tracker para conversaciones naturales multi-turno</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <strong>AidGuide / Zyndra</strong>
+          <span class="date badge-dev">DEV</span>
+        </div>
+        <div class="company">Co-fundador y Scrum Master · ROS2 + YOLOv8 + Python</div>
+        <ul>
+          <li>Perro guía robótico con 99.6% de precisión en 131 clases (80K imágenes)</li>
+          <li>LIDAR + visión por computador para navegación autónoma</li>
+          <li>Startup de Generación Espontánea UPV</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <strong>MCP Smart Agent</strong>
+          <span class="date badge-prod">PRODUCTION</span>
+        </div>
+        <div class="company">TypeScript + Model Context Protocol + Node.js</div>
+        <ul>
+          <li>Servidor MCP con 18 herramientas que fuerza calidad de código</li>
+          <li>440+ descargas en npm · ningún merge sin tests verdes</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <strong>GeneticAgent Catan</strong>
+          <span class="date badge-done">COMPLETED</span>
+        </div>
+        <div class="company">Python · Algoritmos Genéticos · Teoría de Juegos</div>
+        <ul>
+          <li>IA con 93 parámetros genéticos entrenada en 40.000 partidas</li>
+          <li>45 configuraciones con 100% de victorias · 38.6% win rate promedio</li>
         </ul>
       </div>
     </section>
@@ -89,29 +140,11 @@
       <h2>Educación</h2>
       <div class="entry">
         <div class="entry-header">
-          <strong>Grado en Ingeniería Informática</strong>
+          <strong>Grado en Tecnologías Interactivas</strong>
           <span class="date">2021 – 2025</span>
         </div>
-        <div class="company">Universitat Politècnica de València</div>
-        <p>Especialización en Ingeniería del Software. Nota media: 8.4</p>
-      </div>
-    </section>
-
-    <section>
-      <h2>Proyectos destacados</h2>
-      <div class="entry">
-        <div class="entry-header">
-          <strong>Training Center SW — Booster Test Bench</strong>
-          <span class="date">2026</span>
-        </div>
-        <p>Emulador completo de bancada booster con frontend React y backend Go. WebSocket a 4Hz, modelo 3D Three.js y máquina de estados.</p>
-      </div>
-      <div class="entry">
-        <div class="entry-header">
-          <strong>Quiz App — React</strong>
-          <span class="date">2026</span>
-        </div>
-        <p>Aplicación de preguntas con React, consumo de API externa, lógica de puntuación y UI responsiva.</p>
+        <div class="company">Universitat Politècnica de València · Campus de Gandía</div>
+        <p>Especialización en Inteligencia Artificial · Cátedra ENIA + Instituto VRAIN (UPV)</p>
       </div>
     </section>
 
